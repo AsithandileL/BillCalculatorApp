@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Lights"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/Edit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Text1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="22dp"
+        android:hint="Number used"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/Edit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Text1"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="22dp"
+        android:hint="Hours used"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/Text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Edit1"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="20dp"
+        android:text="Air Conditioners"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/Edit3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Text2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="22dp"
+        android:hint="Number used"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/Edit4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Text2"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="22dp"
+        android:hint="Hours used"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/Btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Edit3"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/black"
+        android:text="Find Best Option" />
+
+    <TextView
+        android:id="@+id/Stext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Btn1"
+        android:layout_marginTop="22dp"
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:id="@+id/Stext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Stext1"
+        android:layout_marginTop="22dp"
+        android:textSize="18dp" />
+
+
+</RelativeLayout>
